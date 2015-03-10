@@ -102,6 +102,7 @@ public class changePassword extends HttpServlet {
     public void Error_login(HttpServletRequest req, HttpServletResponse resp) {
         resp.setContentType("text/html");
         PrintWriter out=null;
+		int a;
         try {
             out=resp.getWriter();
         } catch (IOException io) {
